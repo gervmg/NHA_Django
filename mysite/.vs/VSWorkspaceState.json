@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\blog",
+    "\\blog\\static",
+    "\\blog\\templates",
+    "\\blog\\templates\\blog",
     "\\mysite"
   ],
-  "SelectedNode": "\\blog\\models.py",
+  "SelectedNode": "\\blog\\static\\stijl.css",
   "PreviewInSolutionExplorer": false
 }
