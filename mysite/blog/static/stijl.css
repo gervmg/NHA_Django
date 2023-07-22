@@ -1,29 +1,52 @@
-body{
-	background-color: orange;
-	color: black;
+html {
+  font-family: 'Courier New', monospace;
+  font-size: 80%;
+    }
+   body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background: #cc3300;
+	}
+   
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #ff9900;
+        color: #000000;
+        height:60px;
+    }
+    .fixed-header{
+        padding: 10px 0px 10px 80px;
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }    
+	
+	.article {
+	    border: 3px solid white;
+		margin-bottom:10px;
+		margin-top:2px;
+		padding:4px;
+	}
 
-}
-h1{
-	color: white;
-}
-
-article{
-	width: 500px;
-	margin-bottom: 40px;
-	border: 3px solid red;
-}
-
-a:link {
-    color: orange;
-    background-color: transparent;
+	.div_art {
+		position: absolute;
+		width: 440px;
+		background: #ffcccc;
+		top: 84px;
+		left: 700px;
+	}
+	
+	a:link {
+         color: orange;
+         background-color: transparent;
       }
-
-a:visited {
-    color: orange;
-    background-color: transparent;
+      a:visited {
+         color: orange;
+         background-color: transparent;
       }
-      
-a:active {
-    color: yellow;
-    background-color: transparent;
+      a:active {
+         color: yellow;
+         background-color: transparent;
       }
