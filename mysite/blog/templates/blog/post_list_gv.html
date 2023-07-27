@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+<link rel="stylesheet" href="{% static 'stijl.css' %}">
+<title></title>
+</head>
+<body>
+<div class="fixed-header">
+<h1>Mijn website</h1>
+</div> 
+<div class="div_art">{% block content %}
+{% for post in posts %}
+<article class="article">
+<time class="date">
+{{ post.published_date }}
+</time>
+<h2><a href="">{{ post.title }}
+</a>
+</h2>
+<p>{{ post.text|linebreaksbr }}
+</p>
+</article>
+{% endfor %}
+{% endblock %}
+</div>   
+ <div class="fixed-footer">
+   <p></p>      
+ </div>
+</body>
+</html>

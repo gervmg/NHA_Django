@@ -38,7 +38,12 @@ html {
 		left: 700px;
 	}
 	
-	a:link {
+    a{
+        color: black;
+    }
+	
+    /*
+    a:link {
          color: orange;
          background-color: transparent;
       }
@@ -50,3 +55,4 @@ html {
          color: yellow;
          background-color: transparent;
       }
+      */
